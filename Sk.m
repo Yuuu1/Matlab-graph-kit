@@ -7,9 +7,7 @@ kx(1,:)=n*((2*pi)/Length);
 [kx,ky,kz] = ndgrid(kx,kx,kx);
 k=[kx(:),ky(:),kz(:)];
 
-A=importdata('/Users/yuzheng/Documents/Results/LSD.HS.mono.3D.N=1000.JamT1.001.lsdpg.dat',' ',6);
-positions=A.data;
-positions=positions';
+
 
 product=k*positions;
 exp1=exp(1i*product);
