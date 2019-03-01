@@ -5,10 +5,6 @@ Rho=N/A; %Density of number of particles
 
 %Reading data from files
 table1 = readtable('~/Documents/Results/Simulation2/1/1.txt'); %The coordinates of particle 1
-table2 = readtable('~/Documents/Results/Simulation2/1/2.txt');
-table3 = readtable('~/Documents/Results/Simulation2/1/3.txt');
-table4 = readtable('~/Documents/Results/Simulation2/1/4.txt');
-table5 = readtable('~/Documents/Results/Simulation2/1/5.txt');
 
 %Create a new table for saving coordinates of all particles
 table=[table1;table2;table3;table4;table5]; 
