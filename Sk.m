@@ -16,11 +16,7 @@ exp1=exp(1i*product);
 
 sum1=sum(exp1,2);
 kmod=abs(sum1);
-sk=(kmod.^2)/Number;
 
-k1=k.^2;    
-k2=sum(k1,2);
-ksqrt=k2.^(1/2);
 
 func=[ksqrt,sk];
 func=sortrows(func,1);
